@@ -140,9 +140,6 @@ q:lang(en) {
     border-style: dotted;
     border-color: black;
 }
-.intro1 {
-    margin-top: 100px;
-}
 .table-example {
     border: 5px black solid;
     border-collapse: collapse;
@@ -202,7 +199,7 @@ q:lang(en) {
     border: white solid 1px;
     background-color: #eddfff;
 }
-#contact-form input[type="mail"]{
+#contact-form input[type="E-mail"]{
     height: 20px;
     width: 250px;
     padding: 5px;
@@ -234,7 +231,7 @@ q:lang(en) {
     border: white solid 1px;
     background-color: lavenderblush;
 }
-#contact-form textarea[name="Review"]{
+#contact-form textarea[name="review"]{
     width: 250px;
     padding: 5px;
     margin-bottom: 10px;
@@ -248,4 +245,7 @@ q:lang(en) {
     margin-bottom: 1px;
     border: white solid 1px;
     background-color: lavenderblush;
+}
+.intro1 {
+    margin-top: 100px;
 }
