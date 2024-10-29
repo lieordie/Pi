@@ -75,6 +75,10 @@ p {
     font-size: 1rem;
     line-height: 1.6rem;
 }
+.intro1 {
+    margin-top: 100px;
+}
+
 a:link {
     color: gray;
 }
@@ -181,15 +185,15 @@ q:lang(en) {
 }
 #form-example input [type='text'],
 #form-example input [type='password'] {
-    background-color: darkblue;
+    background-color: blue;
     border: none;
-    border-bottom: 1px solid darkblue;
+    border-bottom: 1px solid blue;
     padding: 7px;
   
 }
 #form-example input [type='text']:hover,
 #form-example input [type='password']:hover {
-    background-color: blue;
+    background-color: rebeccapurple;
 }
 #contact-form input[type="text"]{
     height: 20px;
@@ -197,7 +201,7 @@ q:lang(en) {
     padding: 5px;
     margin-bottom: 10px;
     border: white solid 1px;
-    background-color: #eddfff;
+    background-color: white;
 }
 #contact-form input[type="E-mail"]{
     height: 20px;
@@ -205,10 +209,10 @@ q:lang(en) {
     padding: 5px;
     margin-bottom: 10px;
     border: white solid 1px;
-    background-color: lavenderblush;
+    background-color: white;
 }
 #contact-form input[type='submit']:hover{
-    background-color: lavender;
+    background-color: white;
     border-radius: 7px;
 }
 #contact-form select{
@@ -217,7 +221,7 @@ q:lang(en) {
     padding: 5px;
     margin-bottom: 10px;
     border: white solid 1px;
-    background-color: lavenderblush;
+    background-color: white;
 
 }
 #contact-form{
@@ -229,14 +233,14 @@ q:lang(en) {
     padding: 5px;
     margin-bottom: 10px;
     border: white solid 1px;
-    background-color: lavenderblush;
+    background-color: white;
 }
 #contact-form textarea[name="review"]{
     width: 250px;
     padding: 5px;
     margin-bottom: 10px;
     border: white solid 1px;
-    background-color: lavenderblush;
+    background-color: white;
 }
 #contact-form input[type='chekbox']{
     height: 2px;
@@ -244,8 +248,8 @@ q:lang(en) {
     padding: 5px;
     margin-bottom: 1px;
     border: white solid 1px;
-    background-color: lavenderblush;
+    background-color: white;
 }
-.intro1 {
-    margin-top: 100px;
+a + p {
+    content: "-";
 }
